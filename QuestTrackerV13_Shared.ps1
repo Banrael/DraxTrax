@@ -13,7 +13,7 @@ public class CharacterData {
 
 # If you have gotten a ServiceId from https://census.daybreakgames.com/#devSignup, place it here.
 # This should avoid throttling issues.
-$serviceId = "";
+$serviceId = "s:DraxTraxPublic";
 
 # Create a new list of custom objects
 $characterList = New-Object System.Collections.Generic.List[CharacterData]
