@@ -1,6 +1,8 @@
 # DraxTrax
 Powershell scripts for pulling quest completion data from Census. Intended for tracking progress of characters on Weekly quests, but is extensible to track other quests.
 
+![image](https://user-images.githubusercontent.com/47707771/221433314-fc336c0a-3060-414f-b1b8-4d646c7b4b23.png)
+
 # Setup
 1. Download / copy the contents of the following files - you can right-click and save-as the below files, making sure to save the QuestList and CharacterList as .csv files:
    * QuestTrackerV13_Shared.ps1 - https://raw.githubusercontent.com/Banrael/DraxTrax/main/QuestTrackerV13_Shared.ps1
