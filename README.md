@@ -13,11 +13,6 @@ Powershell scripts for pulling quest completion data from Census. Intended for t
      CharacterId<br>
      433793647390<br>
      433792610756<br>
-3. You should get a ServiceId from https://census.daybreakgames.com/#devSignup - otherwise, you may get incomplete results. This takes only a few moments. Once you get your ServiceId, you can place it in the "QuestTrackerV13_Shared.ps1" in the "$serviceId" variable - see below for what you are looking for in the script.
-
-\# If you have gotten a ServiceId from https://census.daybreakgames.com/#devSignup, place it here.<br>
-\# This should avoid throttling issues.<br>
-$serviceId = "";
 
 # Usage
 1. Go to Start -> type in PowerShell and choose "Windows Powershell"
