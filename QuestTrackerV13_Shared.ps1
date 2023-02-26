@@ -129,9 +129,9 @@ $questColumnArray = $characterList[0] | Get-Member -MemberType NoteProperty | Se
 
 $sortedColumnArray = $fixedColumnArray + $questColumnArray;
 
-$characterList | Select-Object -Property $sortedColumnArray | Out-GridView -Title "Quest Status" 
-
 if($UpdateCharacterFile) 
 {
     $characterList | Select-Object @{Name='CharacterId'; Expression={[long]$_.Identifier}}, @{Name='CharacterName'; Expression={[string]$_.Name}} | Export-Csv -Path $CharacterFile -NoTypeInformation
 }
+
+$characterList | Select-Object -Property $sortedColumnArray | Out-GridView -Title "Quest Status" -Wait
