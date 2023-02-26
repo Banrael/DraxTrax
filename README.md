@@ -3,9 +3,9 @@ Powershell scripts for pulling quest completion data from Census. Intended for t
 
 # Setup
 1. Download / copy the contents of the following files:
-   * QuestTrackerV13_Shared.ps1
-   * QuestList.csv
-   * CharacterList.csv
+   * QuestTrackerV13_Shared.ps1 - https://raw.githubusercontent.com/Banrael/DraxTrax/main/QuestTrackerV13_Shared.ps1
+   * QuestList.csv - https://raw.githubusercontent.com/Banrael/DraxTrax/main/QuestList.csv
+   * CharacterList.csv - https://raw.githubusercontent.com/Banrael/DraxTrax/main/CharacterList.csv
 2. Gather a list of characters you want to track quest status for, and place them in CharacterList.csv. 
    * I recommend creating a group of characters on u.eq2wire.com, viewing the "Gear Report", and copying the list of character IDs from the URL - example:
      https://u.eq2wire.com/gearreport/show/character/433793647390,433792610756
