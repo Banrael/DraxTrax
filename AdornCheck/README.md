@@ -1,7 +1,7 @@
 # DraxTrax AdornCheck
 Powershell script for pulling data from Census. Intended for checking for old adornments to help folks upgrade them.
 
-![image](https://user-images.githubusercontent.com/47707771/223883111-f6a38fdf-446e-4609-baf1-10f62eed1137.png)
+![image](https://user-images.githubusercontent.com/47707771/223884407-e26358ac-7594-400a-aa0a-a8900fe88093.png)
 
 # Setup
 1. Download / copy the contents of the following files - you can right-click and save-as the below files, making sure to save the QuestList and CharacterList as .csv files:
