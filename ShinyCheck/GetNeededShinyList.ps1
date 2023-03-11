@@ -3,7 +3,7 @@
 param(
     [string] $CharacterFile = ".\CharacterList.csv",
     [string] $ShinyFile = ".\ShinyList.csv",
-    [switch] $UpdateCharacterFile = $true
+    [switch] $UpdateCharacterFile 
 )
 
 Add-Type @"
