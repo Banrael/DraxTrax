@@ -1,5 +1,5 @@
 # DraxTrax ShinyCheck
-Powershell scripts for pulling what shinies a set of characters need from Census, focused on Renewal of Ro shinies. 
+Powershell scripts for pulling what shinies a set of characters need from Census, focused on Renewal of Ro shinies.<br>
 Many thanks to Feldon / u.eq2wire.com for providing the shiny details needed to make this tool possible!
 
 ![image](https://user-images.githubusercontent.com/47707771/224463217-cf95e12d-84a1-4786-9054-16cda789595b.png)
